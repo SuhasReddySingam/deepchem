@@ -40,6 +40,9 @@ from deepchem.models.torch_models.inceptionv3 import InceptionV3Model, Inception
 from deepchem.models.torch_models.robust_multitask import RobustMultitask, RobustMultitaskClassifier, RobustMultitaskRegressor
 from deepchem.models.torch_models.IRV import IRVLayer, MultitaskIRVClassifier
 from deepchem.models.torch_models.pinns_model import PINNModel
+from deepchem.models.torch_models.jtnn_dec import JTNNDecoder
+from deepchem.models.torch_models.jtnn_enc import JTNNEncoder
+from deepchem.models.torch_models.jtvae import JTNNVAE
 try:
     from deepchem.models.torch_models.dmpnn import DMPNN, DMPNNModel
     from deepchem.models.torch_models.gnn import GNN, GNNHead, GNNModular

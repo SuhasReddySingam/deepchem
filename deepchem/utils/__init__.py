@@ -137,6 +137,37 @@ from deepchem.utils.poly_wd_graph_utils import tag_atoms_in_repeating_unit
 from deepchem.utils.poly_wd_graph_utils import onek_encoding_unk
 from deepchem.utils.poly_wd_graph_utils import remove_wildcard_atoms
 
+from deepchem.utils.jtvae_utils import create_var
+from deepchem.utils.jtvae_utils import index_select_ND
+from deepchem.utils.jtvae_utils import avg_pool
+from deepchem.utils.jtvae_utils import stack_pad_tensor
+from deepchem.utils.jtvae_utils import flatten_tensor
+from deepchem.utils.jtvae_utils import inflate_tensor
+from deepchem.utils.jtvae_utils import GRU
+from deepchem.utils.jtvae_utils import get_slots
+from deepchem.utils.jtvae_utils import Vocab
+from deepchem.utils.jtvae_utils import set_atommap
+from deepchem.utils.jtvae_utils import get_mol
+from deepchem.utils.jtvae_utils import get_smiles
+from deepchem.utils.jtvae_utils import decode_stereo
+from deepchem.utils.jtvae_utils import sanitize
+from deepchem.utils.jtvae_utils import copy_atom
+from deepchem.utils.jtvae_utils import copy_edit_mol
+from deepchem.utils.jtvae_utils import get_clique_mol
+from deepchem.utils.jtvae_utils import tree_decomp
+from deepchem.utils.jtvae_utils import atom_equal
+from deepchem.utils.jtvae_utils import ring_bond_equal
+from deepchem.utils.jtvae_utils import attach_mols
+from deepchem.utils.jtvae_utils import local_attach
+from deepchem.utils.jtvae_utils import enum_attach
+from deepchem.utils.jtvae_utils import enum_assemble
+from deepchem.utils.jtvae_utils import check_singleton
+from deepchem.utils.jtvae_utils import check_aroma
+from deepchem.utils.jtvae_utils import dfs_assemble
+from deepchem.utils.jtvae_utils import MPN
+from deepchem.utils.jtvae_utils import JTMPN
+from deepchem.utils.jtvae_utils import MolTree
+from deepchem.utils.jtvae_utils import MolTreeNode
 # Polymer Weighted Directed Graph Featurization Utilities
 from deepchem.utils.poly_wd_graph_utils import PolyWDGStringValidator
 
